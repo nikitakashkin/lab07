@@ -3,6 +3,37 @@
 
 using namespace std;
 
+/*
+int sum(int n, int suma = 0);
+
+int main() {//zadanie 2.1
+	cout << "Podaj liczbe: ";
+	int n;
+	cin >> n;
+	cout<<"wynik: "<< sum(n);
+	return 0;
+}
+
+int sum(int n, int suma) {
+	for (int i = 1; i <= n; i++) {
+		suma += i;
+	}
+	return suma;
+}
+*/
+/*
+int sum(int n) { zadanie 2.2
+	if (n == 0) {
+		return 0;
+	}
+	else {
+		return n + sum(n - 1);
+	}
+}
+*/
+
+
+/*
 void choinka(int n, int i = 0);
 
 int main() {//zadanie 1
@@ -25,3 +56,4 @@ void choinka(int n, int i) {
 		choinka(n, i + 1);
 	}
 }
+*/
