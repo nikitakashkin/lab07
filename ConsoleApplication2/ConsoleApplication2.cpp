@@ -3,6 +3,40 @@
 
 using namespace std;
 
+
+
+/*
+string odwroc(string napis);
+
+int main() {//zadnanie 4
+	string napis, odwrotny;
+
+	cout << "Podaj napis: ";
+	getline(cin, napis);
+
+	odwrotny = odwroc(napis);
+
+	if (napis == odwrotny) {
+		cout << "Napis jest palindromem.";
+	}
+	else {
+		cout << "Napis nie jest palindromem.";
+	}
+
+	return  0;
+}
+
+string odwroc(string napis)
+{
+	string odwrotny;
+	for (int i = napis.length() - 1; i >= 0; i--) {
+		odwrotny += napis.substr(i, 1);
+	}
+
+	return odwrotny;
+}
+*/
+
 /*
 string odwroc(string napis);
 
