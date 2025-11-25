@@ -3,6 +3,53 @@
 
 using namespace std;
 
+/*
+int wiekszy(int a[], int n);
+
+int main() {//zadanie 5
+	int n;
+
+	cout << "Jaki rozmiar tablicy chesz utworzyc?: ";
+	cin >> n;
+
+	int* tab = new int[n];
+
+	for (int i = 0; i < n; i++) {
+		cout << "Podaj " << i + 1 << " element tablicy: ";
+		cin >> tab[i];
+	}
+
+	cout << "Najwiekszy element tablicy to: " << wiekszy(tab, n);
+
+	return 0;
+}
+int wiekszy(int a[], int n) {//zadanie 5.1
+	int max = 0;
+	if (n == 1) {
+		return a[0];
+	}
+	else {
+		if ( a[n] > wiekszy(a, n - 1) ){
+			return a[n];
+		}
+		else {
+			return wiekszy(a, n - 1);
+		}
+	}
+}
+*/
+
+/*
+int wiekszy(int a[], int n) {zadanie 5.2
+	int max = 0;
+	for (int i = 0; i < n; i++) {
+		if (a[i] > a[i + 1]) {
+			max = a[i];
+		}
+	}
+	return max;
+}
+*/
 
 
 /*
