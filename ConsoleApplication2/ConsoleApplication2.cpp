@@ -4,6 +4,30 @@
 using namespace std;
 
 /*
+string odwroc(string napis);
+
+int main() {//zadnanie 3
+	string napis;
+
+	cout << "Podaj napis: ";
+	getline(cin, napis);
+
+	cout << "Odwrocony napis: " << odwroc(napis);
+
+	return  0;
+}
+
+string odwroc(string napis)
+{
+	string odwrotny;
+	for (int i = napis.length() - 1; i >= 0; i--) {
+		odwrotny += napis.substr(i,1);
+	}
+
+	return odwrotny;
+}
+*/
+/*
 int sum(int n, int suma = 0);
 
 int main() {//zadanie 2.1
